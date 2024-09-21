@@ -1,0 +1,161 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+.logoContainer{
+    display: flex;
+}
+.logoName{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding-top: 9px;
+}
+.logoContainer img{
+    height: 50px;
+    width: 50px;
+}
+.headerButton{
+    padding: 9px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    transition: .5s all ease-in;
+    color:#4850E4FF;
+    margin: 10px;
+    text-transform: capitalize;
+    width: 180px;
+}
+.headerButton:hover{
+    background-color:  #4850E4FF;
+    color: #fff; ;
+}
+.HeroDiv{
+    /* margin: 150px; */
+    background-color: #1D2128FF;
+    padding: 150px;
+
+}
+.Herospan{
+  display: block;
+}
+.heroText{
+    font-size: 3rem;
+    text-align: center;
+     color: #4850E4FF;
+}
+.hero_P{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.GiveBtn{
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    transition: .5s all ease-in;
+    color:#4850E4FF;
+    margin: 10px;
+    text-transform: capitalize;
+    width: 180px;
+    padding: 10px;
+}
+.GiveBtn:hover{
+    background-color:  #4850E4FF;
+    color: #fff; 
+}
+.Hero_button_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroLink{
+    text-decoration: none;
+}
+@media only  screen and (max-width:768px) {
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .logoContainer{
+        display: flex;
+    }
+    .logoName{
+        font-size: 1rem;
+        text-transform: capitalize;
+        font-weight: bolder;
+        padding-top: 16px;
+    }
+    .logoContainer img{
+        height: 50px;
+        width: 50px;
+    }
+    .headerButton{
+        padding: 9px;
+        font-size: 1rem;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        transition: .5s all ease-in;
+        color:#4850E4FF;
+        margin: 10px;
+        text-transform: capitalize;
+        width: 170px;
+    }
+    .headerButton:hover{
+        background-color:  #4850E4FF;
+        color: #fff; ;
+    }
+    .HeroDiv{
+        /* margin: 150px; */
+        background-color: #1D2128FF;
+        padding: 50px;
+    
+    }
+    .Herospan{
+      display: block;
+    }
+    .heroText{
+        font-size: 2.5rem;
+        text-align: center;
+         color: #4850E4FF;
+         text-align: center;
+    }
+    .hero_P{
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .GiveBtn{
+        font-size: 1rem;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        transition: .5s all ease-in;
+        color:#4850E4FF;
+        margin: 10px;
+        text-transform: capitalize;
+        width: 180px;
+        padding: 10px;
+    }
+    .GiveBtn:hover{
+        background-color:  #4850E4FF;
+        color: #fff; 
+    }
+    .Hero_button_Container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heroLink{
+        text-decoration: none;
+    }
+}

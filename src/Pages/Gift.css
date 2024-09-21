@@ -1,0 +1,70 @@
+.inputDiv{
+  
+}
+.giveDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 150px;
+}
+
+input{
+    display: block;
+    margin: 20px;
+    border: none;
+    outline: none;
+    width: 400px;
+    padding: 10px;
+    border-radius: 9px;
+}
+.confirm_Btn{
+  font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    transition: .5s all ease-in;
+    background:#4850E4FF;
+    margin: 10px;
+    text-transform: capitalize;
+    width: 180px;
+    padding: 10px;
+    margin-left: 40px;
+}
+@media only  screen and (max-width:760px) {
+  .inputDiv{
+  
+  }
+  .giveDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  input{
+      display: block;
+      margin: 20px;
+      border: none;
+      outline: none;
+      width: 400px;
+      padding: 10px;
+      border-radius: 9px;
+  }
+  .confirm_Btn{
+    font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      outline: none;
+      border-radius: 8px;
+      transition: .5s all ease-in;
+      background:#4850E4FF;
+      margin: 10px;
+      text-transform: capitalize;
+      width: 180px;
+      padding: 10px;
+      margin-left: 40px;
+  }
+}
